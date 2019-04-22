@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="430dp"
+    android:layout_margin="5dp"
+    android:layout_gravity="center"
+    tools:context="com.example.shivam.majorproject.CreateTransactioActivity3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:text="Enter Pick Up And Drop Point"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/pick_up_point_address_et"
+            android:layout_weight="1.6"
+            android:inputType="textMultiLine"
+            android:overScrollMode="ifContentScrolls"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:hint="Enter Pick up Address "/>
+        <Button
+            android:layout_width="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/pick_up_point_convert_bt"
+            android:text="CONVERT TO LAT LNG"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:id="@+id/pick_up_point_address_tv"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.6"
+            android:id="@+id/drop_off_point_address_et"
+            android:inputType="textMultiLine"
+            android:overScrollMode="ifContentScrolls"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:hint="Enter Drop Off Address"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/drop_off_point_convert_bt"
+            android:background="@android:color/holo_blue_light"
+            android:text="CONVERT TO LAT LNG"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:id="@+id/drop_off_point_address_tv"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textStyle="italic|bold"
+        android:textSize="18sp"
+        android:id="@+id/commit_transaction_bt"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"
+        android:text="COMMIT Transaction >"
+        android:layout_weight="0.4"/>
+</LinearLayout>

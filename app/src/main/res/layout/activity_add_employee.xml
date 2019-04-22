@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    tools:context="com.example.shivam.majorproject.AddEmployeeActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Name"
+        android:id="@+id/employee_name_et"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Contact Number"
+        android:id="@+id/employee_contact_et"
+
+        />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:id="@+id/create_employee_bt"
+       android:text="Create"
+       android:textColor="@android:color/white"
+       android:textSize="20sp"
+       android:textStyle="italic"
+       android:background="@android:color/holo_blue_light"/>
+</LinearLayout>

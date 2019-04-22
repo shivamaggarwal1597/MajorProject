@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "722346411051",
+    "firebase_url": "https://whereismybholastaff.firebaseio.com",
+    "project_id": "whereismybholastaff",
+    "storage_bucket": "whereismybholastaff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722346411051:android:4a53b7d6df65ccfd",
+        "android_client_info": {
+          "package_name": "com.example.shivam.eventlistdemoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722346411051-ioaka635h4dglppls5u3vroc9pbfl0d3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shivam.eventlistdemoapp",
+            "certificate_hash": "e74bf309f85b12c8a6d40318bbba84ecbba0b78a"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoD0nqOOsbeKaGf1Xe6AbCZc1ZWl6w5C0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722346411051-19196ajotvg8fbgpt0bau5uv0svuv5tf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722346411051:android:16ebfa5670e37a57",
+        "android_client_info": {
+          "package_name": "com.example.shivam.eventslistapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722346411051-nbc5e4s4u37gmkjsfomnkf6dtuptups9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shivam.eventslistapp",
+            "certificate_hash": "e74bf309f85b12c8a6d40318bbba84ecbba0b78a"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoD0nqOOsbeKaGf1Xe6AbCZc1ZWl6w5C0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722346411051-19196ajotvg8fbgpt0bau5uv0svuv5tf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722346411051:android:6e19fc0b72ff9fda",
+        "android_client_info": {
+          "package_name": "com.example.shivam.majorproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722346411051-af2mi3lnof6964554ss8r28nfrsek8o6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shivam.majorproject",
+            "certificate_hash": "e74bf309f85b12c8a6d40318bbba84ecbba0b78a"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoD0nqOOsbeKaGf1Xe6AbCZc1ZWl6w5C0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722346411051-19196ajotvg8fbgpt0bau5uv0svuv5tf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722346411051:android:1eac8fb91bbd5c2d",
+        "android_client_info": {
+          "package_name": "shivam.com.whereismystaff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722346411051-4k5qari5kuhfearkgjkd4ejolnl3j0bc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shivam.com.whereismystaff",
+            "certificate_hash": "26fda5307db4330f52bf472679ebb3bd7f8ab3ee"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoD0nqOOsbeKaGf1Xe6AbCZc1ZWl6w5C0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722346411051-19196ajotvg8fbgpt0bau5uv0svuv5tf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

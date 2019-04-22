@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.shivam.majorproject.CreateTransactionActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:text="ENTER CUSTOMER DETAILS"
+    android:gravity="center"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/recipient_name_edit_text"
+        android:layout_weight="1"
+        android:hint="Recipient's Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/recipient_company_name_edit_text"
+        android:layout_weight="1"
+        android:hint="Recipient's Company Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/recipient_remarks_edit_text"
+        android:layout_weight="1"
+        android:hint="Remarks"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/submit_button"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:background="@android:color/holo_blue_light"
+        android:text="NEXT >"/>
+
+</LinearLayout>

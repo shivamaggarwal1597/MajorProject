@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:layout_gravity="center"
+    tools:context="com.example.shivam.majorproject.CreateTransactionActivity2">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:text="ENTER TRANSACTION DETAILS"
+    android:textColor="@android:color/black"
+    android:gravity="center"
+    android:textSize="20sp"
+    android:textStyle="bold"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:hint="Commodity"
+    android:id="@+id/commodity_et"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:id="@+id/quantity_et"
+    android:hint="Quantity (in KG)"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:id="@+id/charges_et"
+    android:hint="Charges (in INR)"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:textStyle="bold"
+    android:id="@+id/next_bt"
+    android:text="NEXT >"
+    android:textSize="20sp"
+    android:background="@android:color/holo_blue_light"
+    android:textColor="@android:color/white"/>
+</LinearLayout>
